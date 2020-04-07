@@ -11,11 +11,6 @@ import java.util.List;
 @Path("/studentManager")
 public class StudentController {
 
-    @GET
-    @Path("/hi")
-    public String sayHello(){
-        return "Hello !";
-    }
 
     @GET
     @Path("/getStudentsData")
@@ -26,8 +21,8 @@ public class StudentController {
 
     @POST
     @Path("/addStudent")
-    @Produces(MediaType.APPLICATION_JSON) // აბრუნებს ჯეისონს
-    @Consumes(MediaType.APPLICATION_JSON) // იღებს ჯეისონს
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
     public void addStudent(Student student){
         ArrayList<Student> students=Studentdata.getInstance();
         students.add(student);
@@ -36,12 +31,12 @@ public class StudentController {
 
     @PUT
     @Path("/{id}")
-    @Produces(MediaType.APPLICATION_JSON) // აბრუნებს ჯეისონს
-    @Consumes(MediaType.APPLICATION_JSON) // იღებს ჯეისონს
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
     public void updateStudent(@PathParam("id") int id,  Student student){
         ArrayList<Student> students=Studentdata.getInstance();
         for (int i=0; i<students.size(); i++ ){
-            if (students.get(i).getId()==id){
+            if (students.get(i).getId() == id){
                 students.get(i).setName(student.getName());
                 students.get(i).setAge(student.getAge());
                 students.get(i).setId(student.getId());

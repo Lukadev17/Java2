@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d9c34b9-93a9-42c9-b5c0-9d0b21de7f7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ge/edu/btu/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ge/edu/btu/controller/StudentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +95,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -123,6 +116,8 @@
       <workItem from="1586197101154" duration="7628000" />
       <workItem from="1586281683471" duration="636000" />
       <workItem from="1586282370330" duration="376000" />
+      <workItem from="1586282979502" duration="733000" />
+      <workItem from="1586357358705" duration="203000" />
     </task>
     <servers />
   </component>
@@ -138,6 +133,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="313" y="53" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1586188800743" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1586357576214">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586357576214" />
     <state width="905" height="111" key="GridCell.Tab.0.bottom" timestamp="1586282745687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -186,9 +185,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="111" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1586282745688" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586282373552">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586357354189">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586282373552" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586357354189" />
+    <state x="65" y="0" key="new project wizard" timestamp="1586357583126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586357583126" />
   </component>
 </project>

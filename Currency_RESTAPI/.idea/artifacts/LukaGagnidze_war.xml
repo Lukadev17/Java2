@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LukaGagnidze:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LukaGagnidze</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="crudAPI.war">
+      <element id="artifact" artifact-name="LukaGagnidze:war exploded" />
+    </root>
+  </artifact>
+</component>

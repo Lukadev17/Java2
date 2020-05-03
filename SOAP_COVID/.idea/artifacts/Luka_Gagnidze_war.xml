@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Luka_Gagnidze:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Luka_Gagnidze</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CovidDemo.war">
+      <element id="artifact" artifact-name="Luka_Gagnidze:war exploded" />
+    </root>
+  </artifact>
+</component>
